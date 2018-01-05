@@ -1,0 +1,26 @@
+{
+  "name": "slot-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "build": "webpack -p"
+  },
+  "author": "Marchuk Viktor",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "^4.6.2",
+    "copy-webpack-plugin": "^4.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "pixi-particles": "^2.1.9",
+    "pixi.js": "^4.6.2"
+  },
+  "dependencies": {
+    "pixi.js": "^4.6.2"
+  }
+}

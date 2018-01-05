@@ -1,0 +1,52 @@
+.slot-app {
+    background: url(../assets/img/Starburst.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    display: block;
+}
+
+.slot-control {
+    text-align: center;
+    display: none;
+}
+
+.slot-control__btn, .slot-control__off {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    border-radius: 15em;
+}
+
+.slot-control__btn {
+    cursor: pointer;
+    background-image: url(../assets/img/control-btn.png);
+}
+
+.slot-control__off {
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 45px);
+    display: none;
+}
+
+.preloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.preloader img {
+    margin: auto;
+    width: 200px;
+}
